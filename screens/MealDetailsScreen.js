@@ -35,7 +35,6 @@ function MealDetailsScreen({}) {
       dispatch(addFavorite({ id: id }));
       // favoriteMealsCtx.addFavorite(id);
     }
-    // console.log(favoriteMealsCtx.ids);
   };
   useLayoutEffect(() => {
     navigation.setOptions({

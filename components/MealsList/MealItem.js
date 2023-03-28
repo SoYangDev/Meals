@@ -3,7 +3,6 @@ import MealDetails from "../MealDetails";
 
 function MealItem({ onPress, meal }) {
   const { imageUrl, title, duration, complexity, affordability } = meal;
-  console.log("mmm", title);
   const handlePress = () => {
     // setMeal(meal);
     onPress();

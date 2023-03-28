@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import CategoriesContext from "../providers/CategoriesContext";
+import CategoriesContext from "../store/context/CategoriesContext";
 
 export const CategoryCard = ({ onPress }) => {
   const { color, title } = useContext(CategoriesContext);

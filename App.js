@@ -31,9 +31,9 @@ export default function App() {
           <NavigationContainer>
             <Stack.Navigator
               screenOptions={{
-                headerStyle: { backgroundColor: "#351401" },
+                headerStyle: { backgroundColor: "#986548" },
                 headerTintColor: "white",
-                contentStyle: { backgroundColor: "#3f2f25" },
+                contentStyle: { backgroundColor: "#204660" },
               }}
             >
               <Stack.Screen

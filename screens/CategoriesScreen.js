@@ -2,7 +2,7 @@ import { FlatList, StyleSheet } from "react-native";
 import { CATEGORIES } from "../data/dummy-data";
 import { CategoryCard } from "../components/CategoryCard";
 import { ROUTES } from "../routes/routes";
-import CategoriesContext from "../providers/CategoriesContext";
+import CategoriesContext from "../store/context/CategoriesContext";
 
 function CategoriesScreen({ navigation }) {
   function renderCategory(itemData) {

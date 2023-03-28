@@ -10,7 +10,6 @@ function FavoritesContextProvider({ children }) {
   const [favorites, setFavorite] = useState([]);
 
   const addFavorite = (id) => {
-    console.log("adding", id);
     setFavorite((currentFavIds) => {
       return [...currentFavIds, id];
     });
