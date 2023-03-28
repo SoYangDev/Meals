@@ -1,6 +1,5 @@
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import Title from "../ui/Title";
-import MealDetails from "./MealDetails";
 import { useContext } from "react";
 import MealContext from "../providers/MealProvider";
 import List from "./List";

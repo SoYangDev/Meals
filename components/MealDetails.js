@@ -1,6 +1,4 @@
-import { useContext, useEffect, useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
-import MealContext from "../providers/MealProvider";
 
 function MealDetails({
   duration,

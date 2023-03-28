@@ -3,7 +3,6 @@ import { createContext, useState } from "react";
 const MealContext = createContext({
   meal: null,
   setMeal: () => {},
-  setMealAndNavigate: (meal, callback) => {},
 });
 
 export const MealProvider = ({ children }) => {

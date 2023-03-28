@@ -1,13 +1,4 @@
-import {
-  Button,
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from "react-native";
-import Title from "../ui/Title";
-import { globalStyles } from "../styles/global";
+import { Image, ScrollView, StyleSheet } from "react-native";
 import MealInstructions from "../components/MealInstructions";
 import MealDetails from "../components/MealDetails";
 import { useContext, useLayoutEffect } from "react";
@@ -19,7 +10,7 @@ import { addFavorite, removeFavorite } from "../store/redux/favorites";
 
 function MealDetailsScreen({}) {
   const navigation = useNavigation();
-  const { imageUrl, title, duration, complexity, affordability, id } =
+  const { imageUrl, duration, complexity, affordability, id } =
     useContext(MealContext).meal;
 
   // const favoriteMealsCtx = useContext(FavoritesContext);

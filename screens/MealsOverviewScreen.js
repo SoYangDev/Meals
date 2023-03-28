@@ -1,9 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import { CATEGORIES, MEALS } from "../data/dummy-data";
-import MealItem from "../components/MealsList/MealItem";
-import { ROUTES } from "../routes/routes";
-import { useContext, useLayoutEffect } from "react";
-import MealContext from "../providers/MealProvider";
+import { useLayoutEffect } from "react";
 import MealsList from "../components/MealsList/MealsList";
 
 function MealsOverviewScreen({ route }) {

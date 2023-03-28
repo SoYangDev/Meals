@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import MealsList from "../components/MealsList/MealsList";
-import { FavoritesContext } from "../store/context/favorites-context";
 import { MEALS } from "../data/dummy-data";
 import { StyleSheet, Text, View } from "react-native";
 import { useSelector } from "react-redux";
